@@ -1,0 +1,10 @@
+.jumbotron {
+    text-align: center;
+    background-color: grey;
+}
+
+#fiveDay{
+    background-color: cadetblue;
+    margin:  15px;
+    border: 15px;
+}
