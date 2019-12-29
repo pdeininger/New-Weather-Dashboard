@@ -1,10 +1,20 @@
-.jumbotron {
-    text-align: center;
-    background-color: grey;
+.grey-border {
+  border: 1px solid grey;
 }
-
-#fiveDay{
-    background-color: cadetblue;
-    margin:  15px;
-    border: 15px;
+.search-history-button {
+  width: 100%;
+}
+.display-inline {
+  display: inline;
+}
+.flex-div {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: lightblue;
+}
+.daily-div {
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  padding: 10px;
 }
