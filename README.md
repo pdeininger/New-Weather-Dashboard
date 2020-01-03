@@ -15,6 +15,8 @@ Given that I put in the name of the city where I'll be
 When I select the GO button
 I'll see the current weather plus what to expect for the next 5 days
 
+![image](https://user-images.githubusercontent.com/57072421/71704029-ed299300-2da5-11ea-85eb-6337988e6f84.png)
+
 Technologies Used:
 HTML5
 CSS
