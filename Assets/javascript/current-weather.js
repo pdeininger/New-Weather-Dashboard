@@ -12,11 +12,16 @@ function currentWeather() {
   $.ajax({
     url: queryURL,
     method: "GET",
+    // validate search term
     error: function() {
       alert("Error:  City not found.");
     }
   }).then(function(response) {
     //we will take the results of the API
+    if (clickStatus === true) {
+      saveCity(city);
+      createSearchButtons();
+    }
 
     //From the results, we will populate city, date, icon, temperature, humidity, wind speed and UV Index
     //city and the date
